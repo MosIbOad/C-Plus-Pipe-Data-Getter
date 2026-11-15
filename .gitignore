@@ -1,0 +1,63 @@
+# ==========================================
+# Visual Studio & C++ .gitignore
+# ==========================================
+
+# Visual Studio dosyaları ve dizinleri
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Çıktı ve ara derleme dizinleri (Build & Intermediate directories)
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Alt dizinlerdeki build klasörleri
+**/x64/
+**/x86/
+**/Debug/
+**/Release/
+
+# Derleme artıkları ve ikili dosyalar (Build artifacts)
+*.obj
+*.ilk
+*.iobj
+*.ipdb
+*.tlog
+*.idb
+*.pdb
+*.pch
+*.res
+*.resm
+*.recipe
+*.log
+*.exe
+*.dll
+*.lib
+*.exp
+*.ilk
+
+# Visual Studio Code / JetBrains / Diğer editörler
+.vscode/
+.idea/
+*.swp
+*~
+
+# İşletim sistemi artıkları
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
